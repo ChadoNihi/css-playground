@@ -1,0 +1,93 @@
+body {
+  background: #00404c;
+  color: silver;
+  font-family: 'Roboto', monospace;
+  width: 100vw;
+}
+
+main {
+  margin: 0 auto 2em;
+  max-width: 80em;
+}
+
+.header-h {font-size: 1.7em; margin-top: 0.3em; margin-bottom: 0.9em; font-family: monospace; font-weight: 100;}
+
+.demo-block div {
+  margin: 0 auto;
+}
+@media screen and (min-width: 500px) {
+  .demo-block {
+    display: inline-block;
+    margin: 0 1.5%;
+    vertical-align: top;
+    width: 30%;
+  }
+}
+.demo-h {
+  /*border-left: 0.01em solid silver;*/
+  font-size: 1.3em;
+  padding-left: 10%;
+}
+.demo {
+}
+.demo h5 {
+  font-size: 1.1em;
+}
+.not-centered-h {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  padding-left: 10%;
+  text-align: left;
+}
+/*.demo h6 {
+  font-size: 1em;
+  margin-top: 2.6em;
+  margin-bottom: 0.6em;
+}*/
+
+.bordered {
+  border-top: 2em solid #6767f9;
+  border-right: 2em solid #ff6b6b;
+  border-bottom: 2em solid #5bc35b;
+  border-left: 2em solid #fbfd72;
+}
+.bordered-w-area {
+  padding-top: 40%; /* i.e. height = width 80%  since margin&padding are calculated rel. to width*/
+  width: 40%;
+}
+
+.triangle {
+  border-top: 5em solid transparent;
+  border-bottom: 5em solid transparent;
+  border-left: 5em solid #fbfd72;
+}
+.triangle-skewed {
+  border-top: 5em solid transparent;
+  border-bottom: 2em solid transparent;
+  border-left: 5em solid #fbfd72;
+}
+.triangle-right {
+  border-top: 5em solid transparent;
+  border-left: 5em solid #fbfd72;
+}
+.descr {
+  margin-top: 0.9em;
+  margin-bottom: 2em;
+}
+
+
+.no-area-elem {
+  height: 0;
+  width: 0;
+}
+.rotate-90 {
+  margin-bottom: -2em !important;
+  transform: rotate(-90deg);
+}
+.crossed-text {
+  font-weight: 100;
+  text-decoration: line-through;
+}
+.centered-text {
+  text-align: center;
+}
